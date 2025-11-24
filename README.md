@@ -12,6 +12,9 @@ Here, we take the project further and try to implement our philosophy on actual 
 ## Checkpoint C
 Using both the previous two checkpoints and the programming assignments, we are building onto the work we've done so far to continue to refine and optimize our portfolio. In this checkpoint, an additional ETF fund was added (QQQ). Based on work in previous assignments it was seen that this asset could potentially boost the growth seen with our portfolio, albeit with more risk. There was a shift in philosophy for the fund. The fund is now willing to take on clients who accept higher volatility in their assets if it means excess returns on their initial investment. The experiments performed in this checkpoint were: Adding QQQ and comparing portfolio performance using the S&P 500 index as a benchmark, Monte Carlo simulations to gain a distribution for various metrics relevant to our fund, and finally introducing a base pay structure for fees and management for our clients. 
 
+## Final Project
+This is the Final Report and code for the project as a whole. In the code, fees were both implemented and optimized for the fund to manage daily operations. The Monte Carlo simulations were also performed on both portfolios (with fees and without). The code builds on previous checkpoints and assignments, as through each step in the pipeline the fund's strategy and methods have adjusted accordingly as new ideas have been discovered. As for the report, it provides a comprehensive look at the fund's general philosophy, the trading strategy implemented on the historical data, a performance evaluation based on both portfolio metrics and MC simulation distributions, and finally, a recommendation for starting the hypothetical firm along with references. 
+
 ## AI Dislaimer
 Checkpoint A:
 ChatGPT was used to simply scour the web and find potential academic sources for my project. All sources produced by ChatGPT were reviewed and only the ones I deemed to be relevant and useful were read and used. 
@@ -21,3 +24,6 @@ Google Gemini was used in the Colab environment to assist with the RSI backtesti
 
 Checkpoint C:
 Google Gemini was used in the Colab environment to assist with visualizations, as well as to print repeat code cells used from my Programming Assignment 3 to be modified for the experiments performed. This made the notebook much more efficient to use. There was also an error resolved with Gemini involving the use of the S&P 500. The ticker (SPX) was incomplete and I got an overload error, but the Gemini feature was able to find the accurate (^GSPC) ticker label to retrieve the historical data from Yahoo! Finance. 
+
+Final Project:
+Google Gemini was used in the Colab environment to assist with visualizations. Gemini was also used to optimize the backtesting and trading strategy. In Checkpoint C, I was not satisfied with the results of the portfolio when it came to Alpha, Sharpe Ratio, and Max Drawdown. I used Gemini to give me a suggestion on how to adjust the minimum momentum threshold to both increase returns and the Sharpe Ratio for the portfolio. It also gave suggestions on fee structure, as the exact percentages were arbitrary and tinkered until I got the performance I was happy with compared to the SPX benchmark values, while keeping in mind not to over-increase Max Drawdown value. 
