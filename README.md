@@ -15,7 +15,7 @@ Using both the previous two checkpoints and the programming assignments, we are 
 ## Final Project
 This is the Final Report and code for the project as a whole. In the code, fees were both implemented and optimized for the fund to manage daily operations. The Monte Carlo simulations were also performed on both portfolios (with fees and without). The code builds on previous checkpoints and assignments, as through each step in the pipeline the fund's strategy and methods have adjusted accordingly as new ideas have been discovered. As for the report, it provides a comprehensive look at the fund's general philosophy, the trading strategy implemented on the historical data, a performance evaluation based on both portfolio metrics and MC simulation distributions, and finally, a recommendation for starting the hypothetical firm along with references. 
 
-## AI Dislaimer
+## GenAI Tools Dislaimer
 Checkpoint A:
 ChatGPT was used to simply scour the web and find potential academic sources for my project. All sources produced by ChatGPT were reviewed and only the ones I deemed to be relevant and useful were read and used. 
 
